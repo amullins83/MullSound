@@ -1,0 +1,278 @@
+<file_created time="Sun Apr 14 23:45:18 CDT 2013">
+<Could not find /Users/austinmullins/MullSound/MullSound.pylog, creating a new logfile>
+<menu_button time="Sun Apr 14 23:45:21 CDT 2013">Load Program</menu_button>
+<command_run time="Sun Apr 14 23:45:34 CDT 2013">mullSound = MullSound()></command_run>
+<command_run time="Sun Apr 14 23:46:01 CDT 2013">mullSound.makeNote(441, 1, 0.5)></command_run>
+<command_run time="Sun Apr 14 23:46:20 CDT 2013">mullSound.addNote(662, 0.5, 0.5)></command_run>
+<command_run time="Sun Apr 14 23:49:16 CDT 2013">mullSound.addNote(551.5, 0.5, 0.5)></command_run>
+<command_run time="Sun Apr 14 23:49:19 CDT 2013">mullSound.addNote(662, 0.5, 0.5)></command_run>
+<command_run time="Sun Apr 14 23:49:26 CDT 2013">mullSound.makeNote(441, 0.5, 0.5)></command_run>
+<command_run time="Sun Apr 14 23:49:36 CDT 2013">mullSound.addNote(441, 0.5, 0.5)></command_run>
+<command_run time="Sun Apr 14 23:49:49 CDT 2013">mullSound.play()></command_run>
+<command_run time="Sun Apr 14 23:53:20 CDT 2013">newSound = MullSound()></command_run>
+<command_run time="Sun Apr 14 23:54:48 CDT 2013">newSound.addNote(441,0.25,0.5)></command_run>
+<command_run time="Sun Apr 14 23:55:33 CDT 2013">a = 441></command_run>
+<command_run time="Sun Apr 14 23:55:46 CDT 2013">A = a * 2></command_run>
+<command_run time="Sun Apr 14 23:56:50 CDT 2013">e = a * 1.5></command_run>
+<command_run time="Sun Apr 14 23:57:09 CDT 2013">cs = a * 1.25></command_run>
+<command_run time="Sun Apr 14 23:57:17 CDT 2013">b = a * 1.125></command_run>
+<command_run time="Sun Apr 14 23:57:43 CDT 2013">d = a * 1.375></command_run>
+<command_run time="Sun Apr 14 23:57:58 CDT 2013">fs = a * 1.75></command_run>
+<command_run time="Sun Apr 14 23:58:10 CDT 2013">gs = a * 1.875></command_run>
+<command_run time="Sun Apr 14 23:58:28 CDT 2013">newSound.addNote(b,0.25,0.5)></command_run>
+<command_run time="Sun Apr 14 23:58:32 CDT 2013">newSound.addNote(cs,0.25,0.5)></command_run>
+<command_run time="Sun Apr 14 23:58:36 CDT 2013">newSound.addNote(d,0.25,0.5)></command_run>
+<command_run time="Sun Apr 14 23:58:39 CDT 2013">newSound.addNote(e,0.25,0.5)></command_run>
+<command_run time="Sun Apr 14 23:58:43 CDT 2013">newSound.addNote(fs,0.25,0.5)></command_run>
+<command_run time="Sun Apr 14 23:58:46 CDT 2013">newSound.addNote(gs,0.25,0.5)></command_run>
+<command_run time="Sun Apr 14 23:58:50 CDT 2013">newSound.addNote(A,0.25,0.5)></command_run>
+<command_run time="Sun Apr 14 23:58:55 CDT 2013">newSound.play()></command_run>
+<command_run time="Sun Apr 14 23:59:10 CDT 2013">newSound.play()></command_run>
+<command_run time="Sun Apr 14 23:59:14 CDT 2013">newSound.play()></command_run>
+<command_run time="Sun Apr 14 23:59:25 CDT 2013">newSound.play()></command_run>
+<command_run time="Mon Apr 15 00:01:38 CDT 2013">newSound = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:02:07 CDT 2013">d></command_run>
+<command_run time="Mon Apr 15 00:02:08 CDT 2013">cs></command_run>
+<command_run time="Mon Apr 15 00:02:22 CDT 2013">e></command_run>
+<command_run time="Mon Apr 15 00:02:37 CDT 2013">a></command_run>
+<command_run time="Mon Apr 15 00:05:34 CDT 2013">e-d></command_run>
+<command_run time="Mon Apr 15 00:05:56 CDT 2013">e=cs></command_run>
+<command_run time="Mon Apr 15 00:06:06 CDT 2013">e = 661.5></command_run>
+<command_run time="Mon Apr 15 00:06:08 CDT 2013">e-cs></command_run>
+<command_run time="Mon Apr 15 00:06:17 CDT 2013">110.25/4 + cs></command_run>
+<command_run time="Mon Apr 15 00:06:32 CDT 2013">d = cs + (e-cs)/4></command_run>
+<command_run time="Mon Apr 15 00:06:47 CDT 2013">newSound.addNote(d,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:06:52 CDT 2013">newSound.addNote(e,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:06:56 CDT 2013">newSound.addNote(A,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:07:02 CDT 2013">newSound.play()></command_run>
+<command_run time="Mon Apr 15 00:07:13 CDT 2013">newSound.play()></command_run>
+<command_run time="Mon Apr 15 00:07:29 CDT 2013">newSound = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:07:38 CDT 2013">newSound.addNote(a,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:07:42 CDT 2013">newSound.addNote(b,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:09:12 CDT 2013">def playScale():
+  sound = MullSound()
+  for note in [a,b,cs,d,e,fs,gs,A]:
+    sound.addNote(note, 0.25, 0.5)
+  sound.play()></command_run>
+<command_run time="Mon Apr 15 00:09:19 CDT 2013">playScale()></command_run>
+<command_run time="Mon Apr 15 00:09:29 CDT 2013">playScale()></command_run>
+<command_run time="Mon Apr 15 00:09:52 CDT 2013">gs></command_run>
+<command_run time="Mon Apr 15 00:09:53 CDT 2013">A></command_run>
+<command_run time="Mon Apr 15 00:09:58 CDT 2013">fs></command_run>
+<command_run time="Mon Apr 15 00:11:10 CDT 2013">def playScale():
+  sound = MullSound()
+  for note in [a,b,cs,d,e,fs,gs,A]:
+    sound.addNote(note, 0.25, 0.5)
+  sound.play()
+  return sound></command_run>
+<command_run time="Mon Apr 15 00:11:16 CDT 2013">scale = playScale()></command_run>
+<command_run time="Mon Apr 15 00:11:28 CDT 2013">scale.play()></command_run>
+<command_run time="Mon Apr 15 00:11:32 CDT 2013">scale.play()></command_run>
+<command_run time="Mon Apr 15 00:11:40 CDT 2013">scale.play()></command_run>
+<command_run time="Mon Apr 15 00:11:45 CDT 2013">scale.play()></command_run>
+<command_run time="Mon Apr 15 00:11:57 CDT 2013">e></command_run>
+<command_run time="Mon Apr 15 00:11:58 CDT 2013">fs></command_run>
+<command_run time="Mon Apr 15 00:11:59 CDT 2013">gs></command_run>
+<command_run time="Mon Apr 15 00:12:00 CDT 2013">A></command_run>
+<command_run time="Mon Apr 15 00:13:32 CDT 2013">gs - fs></command_run>
+<command_run time="Mon Apr 15 00:14:24 CDT 2013">e - d></command_run>
+<command_run time="Mon Apr 15 00:15:24 CDT 2013">d></command_run>
+<command_run time="Mon Apr 15 00:15:39 CDT 2013">a * 4/3></command_run>
+<command_run time="Mon Apr 15 00:15:55 CDT 2013">a * 4/3.0></command_run>
+<command_run time="Mon Apr 15 00:16:00 CDT 2013">a * 4.0/3.0></command_run>
+<command_run time="Mon Apr 15 00:16:03 CDT 2013">d = 588></command_run>
+<command_run time="Mon Apr 15 00:16:14 CDT 2013">e == a * 1.5></command_run>
+<command_run time="Mon Apr 15 00:16:49 CDT 2013">cs == a * 1.25></command_run>
+<command_run time="Mon Apr 15 00:16:59 CDT 2013">b == a * 1.2></command_run>
+<command_run time="Mon Apr 15 00:17:02 CDT 2013">b></command_run>
+<command_run time="Mon Apr 15 00:17:04 CDT 2013">a * 1.2></command_run>
+<command_run time="Mon Apr 15 00:17:21 CDT 2013">b = a * 1.2></command_run>
+<command_run time="Mon Apr 15 00:18:07 CDT 2013">fs = a * 5.0 / 3.0></command_run>
+<command_run time="Mon Apr 15 00:18:08 CDT 2013">fs></command_run>
+<command_run time="Mon Apr 15 00:18:40 CDT 2013">gs = a * 7.0/4.0></command_run>
+<command_run time="Mon Apr 15 00:18:41 CDT 2013">gs></command_run>
+<command_run time="Mon Apr 15 00:18:43 CDT 2013">A></command_run>
+<command_run time="Mon Apr 15 00:19:23 CDT 2013">scale = playScale()></command_run>
+<command_run time="Mon Apr 15 00:19:34 CDT 2013">b></command_run>
+<command_run time="Mon Apr 15 00:19:49 CDT 2013">b = a * 1.125></command_run>
+<command_run time="Mon Apr 15 00:19:56 CDT 2013">scale = playScale()></command_run>
+<command_run time="Mon Apr 15 00:20:10 CDT 2013">scale.play()></command_run>
+<command_run time="Mon Apr 15 00:21:32 CDT 2013">e * 1.5 + A/2></command_run>
+<command_run time="Mon Apr 15 00:22:14 CDT 2013">(A+e)/2></command_run>
+<command_run time="Mon Apr 15 00:22:20 CDT 2013">gs></command_run>
+<command_run time="Mon Apr 15 00:22:32 CDT 2013">scale.play()></command_run>
+<command_run time="Mon Apr 15 00:22:48 CDT 2013">fs></command_run>
+<command_run time="Mon Apr 15 00:22:58 CDT 2013">gs - fs></command_run>
+<command_run time="Mon Apr 15 00:23:41 CDT 2013">gs = e * 1.25></command_run>
+<command_run time="Mon Apr 15 00:23:48 CDT 2013">fs = e * 1.125></command_run>
+<command_run time="Mon Apr 15 00:23:53 CDT 2013">scale = playScale()></command_run>
+<command_run time="Mon Apr 15 00:24:04 CDT 2013">scale.play()></command_run>
+<command_run time="Mon Apr 15 00:24:07 CDT 2013">scale.play()></command_run>
+<command_run time="Mon Apr 15 00:24:10 CDT 2013">scale.play()></command_run>
+<command_run time="Mon Apr 15 00:34:57 CDT 2013">def playChromaticScale():
+ sound = MullSound()
+ for note in [a,as,b,c,cs,d,ds,e,f,fs,g,gs,A]:
+    sound.addNote(note,0.25,0.5)
+  sound.play()
+  return sound></command_run>
+<command_run time="Mon Apr 15 00:36:01 CDT 2013">def playChromaticScale():
+  sound = MullSound()
+  for note in [a,as,b,c,cs,d,ds,e,f,fs,g,gs,A]:
+    sound.addNote(note, 0.25, 0.5)
+  sound.play()
+  return sound></command_run>
+<command_run time="Mon Apr 15 00:36:48 CDT 2013">ds = e * 15/16.0></command_run>
+<command_run time="Mon Apr 15 00:36:49 CDT 2013">ds></command_run>
+<command_run time="Mon Apr 15 00:38:27 CDT 2013">as = 15*9/16.0/8.0*a></command_run>
+<command_run time="Mon Apr 15 00:38:28 CDT 2013">as></command_run>
+<command_run time="Mon Apr 15 00:38:31 CDT 2013">b></command_run>
+<command_run time="Mon Apr 15 00:38:33 CDT 2013">a></command_run>
+<command_run time="Mon Apr 15 00:39:12 CDT 2013">c = a*6/5.0></command_run>
+<command_run time="Mon Apr 15 00:39:13 CDT 2013">c></command_run>
+<command_run time="Mon Apr 15 00:40:26 CDT 2013">f = c * 4 / 3.0></command_run>
+<command_run time="Mon Apr 15 00:40:27 CDT 2013">f></command_run>
+<command_run time="Mon Apr 15 00:40:45 CDT 2013">fprime = fs * 15/16></command_run>
+<command_run time="Mon Apr 15 00:40:48 CDT 2013">fprime></command_run>
+<command_run time="Mon Apr 15 00:41:55 CDT 2013">g></command_run>
+<command_run time="Mon Apr 15 00:42:05 CDT 2013">g = (A+e)/2></command_run>
+<command_run time="Mon Apr 15 00:42:05 CDT 2013">g></command_run>
+<command_run time="Mon Apr 15 00:42:08 CDT 2013">gs></command_run>
+<command_run time="Mon Apr 15 00:42:09 CDT 2013">fs></command_run>
+<command_run time="Mon Apr 15 00:42:17 CDT 2013">a></command_run>
+<command_run time="Mon Apr 15 00:42:18 CDT 2013">as></command_run>
+<command_run time="Mon Apr 15 00:42:19 CDT 2013">b></command_run>
+<command_run time="Mon Apr 15 00:42:22 CDT 2013">c></command_run>
+<command_run time="Mon Apr 15 00:42:23 CDT 2013">cs></command_run>
+<command_run time="Mon Apr 15 00:42:24 CDT 2013">d></command_run>
+<command_run time="Mon Apr 15 00:42:25 CDT 2013">ds></command_run>
+<command_run time="Mon Apr 15 00:42:26 CDT 2013">e></command_run>
+<command_run time="Mon Apr 15 00:42:26 CDT 2013">f></command_run>
+<command_run time="Mon Apr 15 00:42:27 CDT 2013">fs></command_run>
+<command_run time="Mon Apr 15 00:42:28 CDT 2013">g></command_run>
+<command_run time="Mon Apr 15 00:42:29 CDT 2013">gs></command_run>
+<command_run time="Mon Apr 15 00:42:30 CDT 2013">A></command_run>
+<command_run time="Mon Apr 15 00:42:41 CDT 2013">sound = playChromaticScale()></command_run>
+<command_run time="Mon Apr 15 00:43:07 CDT 2013">sound.play()></command_run>
+<command_run time="Mon Apr 15 00:44:50 CDT 2013">def playMinorScale():
+  sound= MullSound()
+  for note in [a,b,c,d,e,f,g,A]:
+    sound.addNote(note, 0.25, 0.5)
+  sound.play()
+  return sound></command_run>
+<command_run time="Mon Apr 15 00:45:01 CDT 2013">sound = playMinorScale()></command_run>
+<command_run time="Mon Apr 15 00:45:09 CDT 2013">sound = playMinorScale()></command_run>
+<command_run time="Mon Apr 15 00:46:25 CDT 2013">sound.play()></command_run>
+<command_run time="Mon Apr 15 00:46:48 CDT 2013">g></command_run>
+<command_run time="Mon Apr 15 00:47:08 CDT 2013">AA = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:47:21 CDT 2013">AA.addNote(A, 0.25, 0.5)></command_run>
+<command_run time="Mon Apr 15 00:47:26 CDT 2013">AA.play()></command_run>
+<command_run time="Mon Apr 15 00:47:36 CDT 2013">GS = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:47:45 CDT 2013">GS.addNote(gs,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:47:48 CDT 2013">GS.play()></command_run>
+<command_run time="Mon Apr 15 00:47:51 CDT 2013">AA.play()></command_run>
+<command_run time="Mon Apr 15 00:47:52 CDT 2013">GS.play()></command_run>
+<command_run time="Mon Apr 15 00:48:05 CDT 2013">FS = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:48:13 CDT 2013">FS.addNote(fs, 0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:48:18 CDT 2013">F = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:48:26 CDT 2013">F.addNote(f,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:48:43 CDT 2013">E = MullSound().addNote(e,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:48:53 CDT 2013">DS = MullSound().addNote(ds,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:49:02 CDT 2013">D = MullSound().addNote(d,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:49:09 CDT 2013">CS = MullSound().addNote(cs,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:49:17 CDT 2013">C = MullSound().addNote(c,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:49:26 CDT 2013">B = MullSound().addNote(b,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:49:34 CDT 2013">AS = MullSound().addNote(as,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:49:41 CDT 2013">aa = MullSound().addNote(a,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:49:49 CDT 2013">aa.play()></command_run>
+<command_run time="Mon Apr 15 00:50:02 CDT 2013">aa = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:50:08 CDT 2013">AS = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:50:15 CDT 2013">B = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:50:20 CDT 2013">C = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:50:24 CDT 2013">CS = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:50:28 CDT 2013">D = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:50:40 CDT 2013">DS = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:50:49 CDT 2013">E = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:51:08 CDT 2013">E.addNote(e,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:51:17 CDT 2013">DS.addNote(ds.0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:51:31 CDT 2013">DS.addNote(ds,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:51:37 CDT 2013">D.addNote(d,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:51:44 CDT 2013">CS.addNote(cs,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:51:49 CDT 2013">C.addNote(c,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:52:01 CDT 2013">B.addNote(b,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:52:07 CDT 2013">AS.addNote(as,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:52:23 CDT 2013">aa.addNote(a,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:52:29 CDT 2013">aa.play()></command_run>
+<command_run time="Mon Apr 15 00:52:37 CDT 2013">B.play()></command_run>
+<command_run time="Mon Apr 15 00:52:41 CDT 2013">C.play()></command_run>
+<command_run time="Mon Apr 15 00:52:45 CDT 2013">D.play()></command_run>
+<command_run time="Mon Apr 15 00:52:50 CDT 2013">E.play()></command_run>
+<command_run time="Mon Apr 15 00:52:53 CDT 2013">F.play()></command_run>
+<command_run time="Mon Apr 15 00:52:59 CDT 2013">E.play()></command_run>
+<command_run time="Mon Apr 15 00:53:00 CDT 2013">F.play()></command_run>
+<command_run time="Mon Apr 15 00:53:17 CDT 2013">E.play()></command_run>
+<command_run time="Mon Apr 15 00:53:17 CDT 2013">F.play()></command_run>
+<command_run time="Mon Apr 15 00:53:19 CDT 2013">E.play()></command_run>
+<command_run time="Mon Apr 15 00:53:20 CDT 2013">F.play()></command_run>
+<command_run time="Mon Apr 15 00:53:21 CDT 2013">E.play()></command_run>
+<command_run time="Mon Apr 15 00:53:25 CDT 2013">D.play()></command_run>
+<command_run time="Mon Apr 15 00:53:30 CDT 2013">C.play()></command_run>
+<command_run time="Mon Apr 15 00:53:33 CDT 2013">B.play()></command_run>
+<command_run time="Mon Apr 15 00:53:36 CDT 2013">A.play()></command_run>
+<command_run time="Mon Apr 15 00:53:42 CDT 2013">aa.play()></command_run>
+<command_run time="Mon Apr 15 00:54:00 CDT 2013">aa_temp = aa></command_run>
+<command_run time="Mon Apr 15 00:54:02 CDT 2013">aa = A></command_run>
+<command_run time="Mon Apr 15 00:54:06 CDT 2013">A = aa_temp></command_run>
+<command_run time="Mon Apr 15 00:54:55 CDT 2013">A.play()></command_run>
+<command_run time="Mon Apr 15 00:55:00 CDT 2013">F.play()></command_run>
+<command_run time="Mon Apr 15 00:55:04 CDT 2013">E.play()></command_run>
+<command_run time="Mon Apr 15 00:55:07 CDT 2013">GS.play()></command_run>
+<command_run time="Mon Apr 15 00:55:11 CDT 2013">AA.play()></command_run>
+<command_run time="Mon Apr 15 00:55:21 CDT 2013">G.play()></command_run>
+<command_run time="Mon Apr 15 00:55:33 CDT 2013">G = MullSound()></command_run>
+<command_run time="Mon Apr 15 00:55:41 CDT 2013">G.addNote(g,0.25,0.5)></command_run>
+<command_run time="Mon Apr 15 00:55:43 CDT 2013">G.play()></command_run>
+<command_run time="Mon Apr 15 00:55:46 CDT 2013">AA.play()></command_run>
+<command_run time="Mon Apr 15 00:55:57 CDT 2013">FS.play()></command_run>
+<command_run time="Mon Apr 15 00:56:00 CDT 2013">F.play()></command_run>
+<command_run time="Mon Apr 15 00:56:42 CDT 2013">D.play()></command_run>
+<command_run time="Mon Apr 15 00:56:47 CDT 2013">FS.play()></command_run>
+<command_run time="Mon Apr 15 00:56:50 CDT 2013">AA.play()></command_run>
+<command_run time="Mon Apr 15 00:56:55 CDT 2013">D.play()></command_run>
+<command_run time="Mon Apr 15 00:56:59 CDT 2013">F.play()></command_run>
+<command_run time="Mon Apr 15 00:57:00 CDT 2013">AA.play()></command_run>
+<command_run time="Mon Apr 15 00:57:09 CDT 2013">B.play()></command_run>
+<command_run time="Mon Apr 15 00:57:11 CDT 2013">D.play()></command_run>
+<command_run time="Mon Apr 15 00:57:15 CDT 2013">G.play()></command_run>
+<command_run time="Mon Apr 15 00:57:32 CDT 2013">sound.play()></command_run>
+<command_run time="Mon Apr 15 01:08:19 CDT 2013">2^(1/12)></command_run>
+<command_run time="Mon Apr 15 01:08:33 CDT 2013">pow(2,1/12)></command_run>
+<command_run time="Mon Apr 15 01:08:48 CDT 2013">pow(2,1/12)*1000></command_run>
+<command_run time="Mon Apr 15 01:09:00 CDT 2013">pow(2,2)></command_run>
+<command_run time="Mon Apr 15 01:09:01 CDT 2013">pow(2,3)></command_run>
+<command_run time="Mon Apr 15 01:09:11 CDT 2013">1/12></command_run>
+<command_run time="Mon Apr 15 01:09:15 CDT 2013">1/12.0></command_run>
+<command_run time="Mon Apr 15 01:09:28 CDT 2013">pow(2,1/12.0)></command_run>
+<command_run time="Mon Apr 15 01:10:33 CDT 2013">tr2 = pow(2,1/12.0)></command_run>
+<command_run time="Mon Apr 15 01:13:17 CDT 2013">scale = {a:440, as:440*tr2, b:440*pow(tr2,2), c:440*pow(tr2,3), cs:440*pow(tr2,4), d:440*pow(tr2,5), ds:440*pow(tr2,6), e:440*pow(tr2,7), f:440*pow*tr2,8), fs:440*pow(tr2,9), g:440*pow(tr2,10), gs:440*pow(tr2,11), aa:880} ></command_run>
+<command_run time="Mon Apr 15 01:14:45 CDT 2013">for power in range(13):
+  ></command_run>
+<command_run time="Mon Apr 15 01:14:54 CDT 2013">frequencies = []></command_run>
+<command_run time="Mon Apr 15 01:15:19 CDT 2013">for power in range(13):
+  frequencies.append(440*pow(tr2,power))></command_run>
+<command_run time="Mon Apr 15 01:15:52 CDT 2013">notes = ["a","as","b","c","cs","d","ds","e","f","fs","g","gs","aa"]></command_run>
+<command_run time="Mon Apr 15 01:16:04 CDT 2013">scale = zip(notes, frequencies)></command_run>
+<command_run time="Mon Apr 15 01:16:05 CDT 2013">scale></command_run>
+<command_run time="Mon Apr 15 01:16:41 CDT 2013">scale = dict(zip(notes,frequencies))></command_run>
+<command_run time="Mon Apr 15 01:16:43 CDT 2013">scale></command_run>
+<command_run time="Mon Apr 15 01:19:02 CDT 2013">def playScale():
+  sound = MullSound()
+  for note in frequencies:
+    sound.addNote(note, 0.25, 0.5)
+  sound.play()
+  return sound></command_run>
+<command_run time="Mon Apr 15 01:19:11 CDT 2013">chromatic = playScale()></command_run>
+<command_run time="Mon Apr 15 01:19:52 CDT 2013">chromatic.play()></command_run>
+<command_run time="Tue Apr 16 00:00:38 CDT 2013">chromatic.play()></command_run>
+<menu_button time="Tue Apr 16 00:02:45 CDT 2013">Save Program</menu_button>
+<file_saved time="Tue Apr 16 00:02:45 CDT 2013">/Users/austinmullins/MullSound/MullSound.py</file_saved>
+</file_created>
