@@ -92,3 +92,32 @@ MaryHadALittleLamb = "E5,Q. D5,E C5,Q D5,Q E5,Q E5,Q E5,H D5,Q D5,Q D5,H E5,Q G5
 SmokeOnTheWater = "G3,E ;,E Bb3,E ;,E C4,Q. G3,E ;,E Bb3,E ;,E Db4,E C4,H G3,E ;,E Bb3,E ;,E C4,Q. Bb3,E ;,E G3,H"
 
 DoSoDo = "C5,Q G5,Q C5,H"
+
+tr2 = math.pow(2, 1/12.0)
+frequency = {}
+frequency["C0"] = 440.0*math.pow(tr2, 3)/math.pow(2,5)
+sine = {}
+
+for name in Note:
+  frequency[name] = frequency["C0"]*math.pow(tr2, Note[name])
+  #sine[name] = MullSound()
+  #sine[name].makeNote(frequency[name], 0.125, 1.0)
+
+def playSineScale(startNote = "C5", steps = MAJOR_STEPS):
+  sound = MullSound()
+  for step in steps:
+    sound.addNote(frequency[startNote]*math.pow(tr2, step), 0.125, 1.0)
+  sound.play()
+  return sound  
+
+def playSineScript(noteScript, bpm = 120):
+  return playSineSequence(parseScript(noteScript), bpm)
+  
+def playSineSequence(noteList, bpm = 120):
+  sound = MullSound()
+  for note in noteList:
+    time_in_s = musicalTime[note.time]*60/float(bpm)
+    volume = note.volume / 127
+    sound.addNote(frequency[note.name], time_in_s, volume)
+  sound.play()
+  return sound   
